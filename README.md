@@ -37,3 +37,19 @@ npm run dev
 4. Commit avec le message "TD02 : Afficher l'année dans le Footer"
 5. Push
 
+## TD03 : Utiliser les propos 
+1. Considérer les données du fichier data.json
+2. Créer une fonction permettant de tirer alléatoirement un item de la liste
+3. Créer un composant permettant d'afficher un élément du tableau.
+>> Libre à vous de définir le style et la disposition des éléments (vous pouvez inclure des librairies css externes)
+4. Commit avec le message "TD03 : Afficher les détails d'une note"
+5. Push
+
+## TD04 : Gestion d'événements 
+→ Ajouter un menu en haut à gauche de votre application
+→ Considérer les éléments suivants (Notes, Etudiants, Matières, A propos) 
+→ Afficher une alerte contenu le text de l’élément cliqué
+→ Commit avec le message “Add menu”
+→ Push 
+
+ 
