@@ -1,5 +1,4 @@
-# Initiation aux concepts de bases React
-Dans ce repository, vous allez découvrir et expérimenter les concepts de bases du fremework React. Tout au long du cours, vous allez devoir réaliser des exercices relatives aux notions abordées. Vos réponses aux différents exercices doivent être commitées dans ce repository. 
+# Session 1 : Concepts de bases React
 
 ## TD00 : Créer et initialiser un projet React 
 1. Installer NodeJS
@@ -50,6 +49,37 @@ npm run dev
 2. Considérer les éléments suivants (Notes, Etudiants, Matières, A propos) 
 3. Afficher une alerte contenu le text de l’élément cliqué
 4. Commit avec le message “Add menu”
-5. Push 
+5. Push
+
+# Session 02 : Gestion des listes dynamiques
+## Objectifs de la session : 
+- Manipuler des listes d'objets
+- Utiliser de tableaux
+- Gestion d'événements
+- Utilisation de librairies (eg. material ui)
+- Gestion dynamique de contenu
+
+## Etape 1: Menu dynamique
+- Modifier le composant du Menu pour utiliser une liste afin d'éviter la répétition de codes
+- Faire en sorte que l'item selectionné dans le menu soit actif
+- Créer un composent dédié pour chaque item du menu et afficher le bon composant en fonction du menu selectionné.
+> Pour l'instant, afficher simplement un text avec le nom du menu dans le contenu de chaque composant, on les complètera dans les étapes suivantes
+- Commit avec le messaage "TD04 : Gestion de menu dynamique"
+
+## Etape 2: Gestion de données des composants 
+Dans cette section, vous allez gérer le contenu des composants liés au menu en utilisant des liste d'objects statiques. Pour cela, récupérer les fichiers de données (notes.json, students.json, class.json et teachers.json) et importez les dans un dossier data de votre projet. 
+
+> Attention, cette étape contient plusieurs tâches, une par menu 
+
+1. Mettre à jour les dépendances du projet en y intégrant les libraries material ui [https://mui.com/material-ui/getting-started/installation/]
+2. Se familliariser avec les composants Table [https://mui.com/material-ui/react-table/] -- Commencer par le Basic Table pour l'instant
+3. Utiliser les fichiers de données pour remplir le contenu des différents composants en utilisant des tableaux
+4. Commmiter avec le message "TD04: Remplir le contenu du composant [XXX]"
+5. Push
+> Répéter les étapes 1 à 5 pour tous les composants
+
+
+
+
 
  
