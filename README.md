@@ -46,10 +46,10 @@ npm run dev
 5. Push
 
 ## TD04 : Gestion d'événements 
-→ Ajouter un menu en haut à gauche de votre application
-→ Considérer les éléments suivants (Notes, Etudiants, Matières, A propos) 
-→ Afficher une alerte contenu le text de l’élément cliqué
-→ Commit avec le message “Add menu”
-→ Push 
+1. Ajouter un menu en haut à gauche de votre application
+2. Considérer les éléments suivants (Notes, Etudiants, Matières, A propos) 
+3. Afficher une alerte contenu le text de l’élément cliqué
+4. Commit avec le message “Add menu”
+5. Push 
 
  
