@@ -3,23 +3,41 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from './assets/mbds.jpeg';
 import './App.css'
+import './header.css'
 import data from '../../data.json';
 
 
 
 function Header(){
+
+  const handleMenuClick = (item) => {
+    alert(`Vous avez cliqué sur ${item}`);
+  };
+
+
   return (
     <header className="header-container">
-      <img 
-        src={logo}
-        alt="Logo de la formation" 
-        className="header-logo"
-        style={{ width: '350px'  }}
-      />
-      <h1 className="header-title">Introduction à React</h1>
-      <h2 className="header-subtitle">
-        À la découverte des premières notions de React
-      </h2>
+      <div className="menu-container">
+        <ul className="menu">
+          <li className="menu-item" onClick={() => handleMenuClick('Notes')}>Notes</li>
+          <li className="menu-item" onClick={() => handleMenuClick('Étudiants')}>Étudiants</li>
+          <li className="menu-item" onClick={() => handleMenuClick('Matières')}>Matières</li>
+          <li className="menu-item" onClick={() => handleMenuClick('À propos')}>À propos</li>
+        </ul>
+      </div>
+
+      <div className="logo-container">
+        <img
+          src={logo}
+          alt="Logo de la formation"
+          className="header-logo"
+        />
+      </div>
+
+      <div className="header-text">
+        <h1 className="header-title">Introduction à React</h1>
+        <h2 className="header-subtitle">À la découverte des premières notions de React</h2>
+      </div>
     </header>
   );
 }
