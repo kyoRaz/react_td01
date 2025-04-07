@@ -46,9 +46,11 @@ const MainContent = () => {
 
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
-      <p>Tous droits réservés - Steeve Peraly</p> 
+      <p>© {currentYear} - Steeve Peraly , Tous droits réservés</p> 
     </footer>
   );
 };
