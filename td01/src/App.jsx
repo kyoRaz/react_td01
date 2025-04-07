@@ -25,9 +25,21 @@ function Header(){
 }
 
 const MainContent = () => {
+
+  const now = new Date();
+
+    const date = now.toLocaleDateString('fr-FR', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+
+    const time = now.toLocaleTimeString('fr-FR');
+
   return (
     <main className="main-content">
-      <p>Ici, nous afficherons des MainContentrmations intéressantes :) </p>
+      <p>Bonjour, on est le {date} et il est {time}</p>
     </main>
   );
 };
