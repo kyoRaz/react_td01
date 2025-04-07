@@ -24,12 +24,22 @@ function Header(){
   );
 }
 
+const MainContent = () => {
+  return (
+    <main className="main-content">
+      <p>Ici, nous afficherons des MainContentrmations intéressantes :) </p>
+    </main>
+  );
+};
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Header></Header>
+      <MainContent></MainContent>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
