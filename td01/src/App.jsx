@@ -1,13 +1,35 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from './assets/mbds.jpeg';
 import './App.css'
+
+
+
+
+function Header(){
+  return (
+    <header className="header-container">
+      <img 
+        src={logo}
+        alt="Logo de la formation" 
+        className="header-logo"
+        style={{ width: '350px'  }}
+      />
+      <h1 className="header-title">Introduction à React</h1>
+      <h2 className="header-subtitle">
+        À la découverte des premières notions de React
+      </h2>
+    </header>
+  );
+}
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Header></Header>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
