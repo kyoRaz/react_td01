@@ -33,7 +33,7 @@ const SectionCard = ({ title, children }) => (
 
 const APropos = () => (
     <SectionCard title="Section : À propos">
-    <p>Informations générales sur cette application React d’initiation.</p>
+    <p>Ce projet est réalisé par Steeve Peraly .</p>
     </SectionCard>
 );
 
