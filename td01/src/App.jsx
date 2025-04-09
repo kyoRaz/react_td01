@@ -5,12 +5,7 @@ import './App.css'
 import './header.css'
 import Header from './components/Headers'
 import Element from './components/Element'
-
-
-
-
-
-
+import MenuTable from './components/MenuTable'
 
 const MainContent = () => {
 
@@ -29,7 +24,7 @@ const MainContent = () => {
     <main className="main-content">
       <p>Bonjour, on est le {date} et il est {time}</p>
       <br />
-      <Element></Element>
+      <MenuTable></MenuTable>
     </main>
   );
 };
