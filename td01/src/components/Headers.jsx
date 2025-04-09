@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from '../assets/mbds.jpeg';
 import Notes from './Notes'
 import Matieres from './Matieres'
+import Etudiants from './Etudiants'
 
 const HeaderMenu = ({ activeItem, menuItems, onMenuClick }) => {
     return (
@@ -28,12 +29,6 @@ const SectionCard = ({ title, children }) => (
     </div>
 );
 
-
-const Etudiants = () => (
-    <SectionCard title="Section : Étudiants">
-    <p>Gérez ici les informations des étudiants inscrits à la formation.</p>
-    </SectionCard>
-);
 
 
 const APropos = () => (
