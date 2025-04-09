@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/mbds.jpeg';
 import Notes from './Notes'
+import Matieres from './Matieres'
 
 const HeaderMenu = ({ activeItem, menuItems, onMenuClick }) => {
     return (
@@ -34,11 +35,6 @@ const Etudiants = () => (
     </SectionCard>
 );
 
-const Matieres = () => (
-    <SectionCard title="Section : Matières">
-    <p>Consultez et éditez les matières enseignées.</p>
-    </SectionCard>
-);
 
 const APropos = () => (
     <SectionCard title="Section : À propos">
