@@ -24,7 +24,7 @@ const MainContent = () => {
     <main className="main-content">
       <p>Bonjour, on est le {date} et il est {time}</p>
       <br />
-      <MenuTable></MenuTable>
+      {/* <MenuTable></MenuTable> */}
     </main>
   );
 };
